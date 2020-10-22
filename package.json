@@ -1,0 +1,10 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "Cloning Toutube with Vanilla and NodeJS",
+  "main": "index.js",
+  "author": "BJ Park",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
