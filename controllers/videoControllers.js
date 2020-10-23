@@ -1,13 +1,13 @@
 // global controller
-export const home = (req, res) => res.send("Home");
-export const search = (req, res) => res.send("Search")
+export const home = (req, res) => res.render("home");
+export const search = (req, res) => res.render("search");
 
 // video controller
-export const videos = (req, res) => res.send("videos")
-export const upload = (req, res) => res.send("Upload")
-export const videosDetail = (req, res) => res.send("Videos Detail")
-export const editVideo = (req, res) => res.send("Edit Video")
-export const deleteVideo = (req, res) => res.send("Delete Video")
+export const videos = (req, res) => res.render("videos");
+export const upload = (req, res) => res.render("upload");
+export const videosDetail = (req, res) => res.render("videosDetail");
+export const editVideo = (req, res) => res.render("editVideo");
+export const deleteVideo = (req, res) => res.render("deleteVideo");
 
 
 
