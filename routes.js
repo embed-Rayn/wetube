@@ -32,7 +32,7 @@ const routes ={
     upload: UPLOAD,
     videos: VIDEOS,
     upload: UPLOAD,
-    videoDetail: VIDEOS_DETAIL,
+    videosDetail: VIDEOS_DETAIL,
     editVideo: EDIT_VIDEO,
     deleteVideo: DELETE_VIDEO
 };
