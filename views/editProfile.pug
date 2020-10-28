@@ -1,1 +1,7 @@
-p editProfile
+extends layouts
+
+block content
+    .form__container
+        form(action=routes/editProfile, method="post")
+            label(for="avatar") Avatar
+            input(type="file", id="avatar", name="abatar")
