@@ -1,6 +1,7 @@
 // Global
 const HOME = "/";
-const JOIN = "/join";
+const GET_JOIN = "/getJoin";
+const POST_JOIN = "/postJoin";
 const LOGIN = "/login";
 const LOGOUT = "logout";
 const SEARCH = "/search";
@@ -20,7 +21,8 @@ const DELETE_VIDEO = "/:id/delete";
 
 const routes ={
     home: HOME,
-    join: JOIN,
+    getJoin: GET_JOIN,
+    postJoin: POST_JOIN,
     login: LOGIN,
     logout: LOGOUT,
     search: SEARCH,
