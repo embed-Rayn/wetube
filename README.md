@@ -16,3 +16,7 @@ Cloning Toutube with Vanilla and NodeJS
 - [x] Upload
 - [ ] Video Detail
 - [x] Edit Video
+
+## Reference
+[노마드 코드](https://nomadcoders.co/)
+[유튜브 클론코딩](https://nomadcoders.co/wetube)
